@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+body{
+  background-color: #282c34 ;
+}
+
+.App-header {
+  background-color: grey;
+  min-height: 90vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column; 
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+@media only screen and (max-width: 768px) {
+  .App-header{
+    width: 80%;
+  }
+}
+.form-inline{
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+input{
+ border-color: transparent;
+}
+.InputType{
+  border-radius: 1rem;
+  padding: 0.4rem;
+  font-size: 16px;
+  width: 20rem;
+  color: gray;
+margin: 10px;}
+
+.InputType::placeholder{
+  padding: 0.2rem;
+}
+input:focus{
+  outline: none;
+  border-color: transparent;
+}
+.btn{
+  width: 8rem;
+  border-radius: 1rem;
+  font-weight: 700;
+  margin: 10px;
+}

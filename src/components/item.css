@@ -1,0 +1,39 @@
+.Task {
+    width: 90%;
+    display: flex;
+    
+    justify-content: space-around;
+    
+}
+p{
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 0px ;
+}
+.Task input{
+    border-radius: 1rem;
+    padding: 0.4rem;
+    font-size: 20px;
+    width: 15rem;
+    color: #fafafa;
+    background-color: transparent;
+    caret-color: rgb(40, 167, 69);
+}
+@media only screen and (max-width: 768px) {
+    
+    .Task input{
+       width: 90%;
+       padding: 0 0.4rem;
+    }
+    
+}
+.Task .button{
+    padding: 0.2rem;
+    color: rgba(252, 157, 157, 0.7);
+    cursor: pointer;
+    transition: font-size .45 ease-in-out;
+}
+.Task .button:hover{
+    font-size: 24px ;
+    color: rgba(212, 36, 36, 0.9);
+}
